@@ -26,6 +26,6 @@ app.use(function (req, res, next) {
 
 require('./route')(app);
 
-app.listen(config.server.port);
+app.listen(process.env.PORT || config.server.port);
 console.log("Server started at "+config.server.port);
 
