@@ -1,0 +1,12 @@
+module.exports={
+	server:{
+	host:'localhost',
+	port:'8000'
+	},
+	database:{
+	host:'localhost',
+	user:'root',
+	password:'',
+	db:'toppr_1'
+	}
+}

@@ -1,0 +1,38 @@
+
+doctype html
+h3 LIST
+  form(action='/list', method='GET')
+    input(type='submit', value='submit')
+    hr
+h3 COUNT
+  form(action='/count', method='GET')
+    input(type='submit', value='submit')
+    hr
+h3 SEARCH BY NAME
+  form(action='/search_name', method='POST')
+    | name :
+    input(type='text', name='sname')
+    input(type='submit', value='submit')
+    hr
+h3 SEARCH BY ATTACKER KING
+  form(action='/search_king', method='POST')
+    | king name :
+    input(type='text', name='sking')
+    input(type='submit', value='submit')
+    hr
+h3 SEARCH BY BATTLE TYPE 
+  form(action='/battle_type', method='POST')
+    | battle type :
+    input(type='text', name='stype')
+    input(type='submit', value='submit')
+    hr
+h3 SEARCH BY LOCATION 
+  form(action='/location', method='POST')
+    | location :
+    input(type='text', name='slocation')
+    input(type='submit', value='submit')
+    hr
+h3 STATS
+  form(action='/stats', method='GET')
+    input(type='submit', value='submit')
+    hr
